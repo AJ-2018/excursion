@@ -14,10 +14,29 @@ a {
 }
 
 h1,
- p {
+ p,
+  h2 {
    text-align: center;
  }
 
- h1 {
+ h1,
+  h2 {
    color: White;
  }
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p {
+  font-size: 21px;
+  color: Gray;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
